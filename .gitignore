@@ -1,3 +1,14 @@
-# Build folder and log file
+# Flutter/Dart specific
+*.dart_tool/
+*.flutter-plugins
+*.flutter-plugins-dependencies
+*.packages
+.pub-cache/
 build/
-build.log
+# macOS specific
+.DS_Store
+# Android specific
+*.iml
+.gradle/
+/local.properties
+/captures/
